@@ -1,11 +1,11 @@
-import {} from '@headlessui/react'
+import { Combobox } from '@headlessui/react'
 
 function App() {
   return (
     <div className="grid h-screen w-screen place-content-center">
-      <span>
-        Start editing <code>/src/App.jsx</code>
-      </span>
+      <Combobox>
+        <Combobox.Input className="focus:outline outline-8 outline-red-500 border border-black" />
+      </Combobox>
     </div>
   )
 }
